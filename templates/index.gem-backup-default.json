@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "custom_liquid_rz6TYF": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"background:#e0ffe0; color:#155724; padding:10px; border-radius:8px; font-weight:bold; margin-top:10px; text-align:center;\">\n  ✅ In Stock — Order Fast!  \n  <br>🚚 3-Day or Less Delivery\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_hnaHkY": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "=<div style=\"text-align:center; margin-top:15px; font-size:18px; font-weight:700; color:#000; background:#FFD700; padding:12px 20px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.2);\">\n  🚚 Flat $5 Delivery — Fast & Reliable!\n<\/div>",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_product_URUQPp": {
+      "type": "featured-product",
+      "blocks": {
+        "text_GNCQb4": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_j9MzgF": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_7hNpBb": {
+          "type": "price",
+          "settings": {}
+        },
+        "custom_liquid_KKxPrF": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"text-align:left; margin-top:6px; font-size:15px; color:#FFD700; display:flex; align-items:center; gap:6px;\">\n  <span>⭐⭐⭐⭐☆<\/span>\n  <span style=\"color:#fff;\">4.6\/5<\/span>\n  <span style=\"color:#ccc;\">(172 verified reviews)<\/span>\n  <span style=\"font-size:13px; color:#4CAF50;\">✅<\/span>\n<\/div>"
+          }
+        },
+        "kaching_bundles_app_block_eF9Dif": {
+          "type": "shopify:\/\/apps\/kaching-bundles\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
+        "custom_liquid_jcX39n": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"text-align:left; margin-top:8px; font-size:18px; color:#ff3333; font-weight:700;\">\n  ⚠️ Low stock — only a few left! Order soon.\n<\/div>"
+          }
+        },
+        "variant_picker_CzDHTV": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_CQnB3b": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_x6RMR4": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_UEHHN7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "share_BHVktb": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_GNCQb4",
+        "title_j9MzgF",
+        "price_7hNpBb",
+        "custom_liquid_KKxPrF",
+        "kaching_bundles_app_block_eF9Dif",
+        "custom_liquid_jcX39n",
+        "variant_picker_CzDHTV",
+        "quantity_selector_CQnB3b",
+        "buy_buttons_x6RMR4",
+        "custom_liquid_UEHHN7",
+        "share_BHVktb"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "voltrx-premium-electric-protein-shaker-bottle-made-with-tritan-bpa-free-24-oz-vortex-portable-mixer-cup-usb-rechargeable-shaker-cups-for-protein-shakes-for-workout-fitness-exercise",
+        "color_scheme": "scheme-5",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
+    }
+  },
+  "order": [
+    "image_banner",
+    "custom_liquid_rz6TYF",
+    "custom_liquid_hnaHkY",
+    "featured_product_URUQPp",
+    "pagefly-home"
+  ]
+}
